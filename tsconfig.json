@@ -1,5 +1,6 @@
 {
   "extends": "expo/tsconfig.base",
+  "target": "ES5",
   "compilerOptions": {
     "strict": true
   }
