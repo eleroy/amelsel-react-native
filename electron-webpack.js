@@ -8,6 +8,11 @@ module.exports = withExpoAdapter({
   },
   main:{
     "webpackConfig": "webpack.config.js",
+  },
+  resolve: {
+    alias: {
+      'victory-native': 'victory'
+    }
   }
 });
 

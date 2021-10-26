@@ -2,8 +2,8 @@ import React from "react";
 import {parse} from "papaparse";
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-export const hiveIp = "192.168.43.75";
-//export const hiveIp = "192.168.1.89";
+//export const hiveIp = "192.168.43.75";
+export const hiveIp = "192.168.1.89";
 
 export class HiveManager {
     name: string;
